@@ -12,7 +12,7 @@ st.markdown('Sentimemnt Analysis of tweets about US Airlines 🐦')
 st.sidebar.markdown('Sentimemnt Analysis of tweets about US Airlines 🐦 ')
 
 #filelocation
-DATA_URL= ("C:\\Users\\DELL\\Downloads\\tweets.xlsx")
+DATA_URL= "tweets.xlsx"
 
 #readdata
 @st.cache(persist =True)
